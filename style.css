@@ -1,13 +1,17 @@
 body{ margin: 0;}
 *{box-sizing: border-box;
-/*border: 1px red solid*/
-font-family: sans-serif;
+  /*border: 1px red solid*/
+  font-family: sans-serif;
 }
-ul{list-style: none;}
+ul{list-style: none;
+}
+
 .nav-bar{
   background: #047e6f;
   color: white;
+  padding: 0px 20px 0px 20px;
 }
+
 .nav-bar p{
   display: inline-block;
   margin: 10px;
@@ -22,9 +26,10 @@ ul{list-style: none;}
 
 .row{ margin-top: 100px;
   text-align: center;
-
 }
+
 .row img{width: 100%;}
+
 .column{display: inline-block;
   width: 25%;
   margin: 40px 10px;
@@ -32,18 +37,19 @@ ul{list-style: none;}
   -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
   border-radius: 5px;
-
 }
 
 .card-text{
   text-align: left;
   margin:10px;
 }
-.card-text h2{
-margin-bottom: 0;
-border-bottom: red 13px solid;
 
+.card-text h2{
+  margin-bottom: 0;
+  border-bottom: #666 1px solid;
+  padding-bottom: 10px;
 }
+
    .cancel-button{
     margin: 10px 0px;
     float: left;
@@ -53,8 +59,8 @@ border-bottom: red 13px solid;
     font-size: 15px;
     padding: 10px 20px;
     border-radius: 3px;
-
    }
+
    .submit-button{
     margin: 10px 0px;
     float: right;
@@ -64,5 +70,4 @@ border-bottom: red 13px solid;
     font-size: 15px;
     padding: 10px 20px;
     border-radius: 3px;
-
    }
