@@ -1,0 +1,18 @@
+body{ margin: 0;}
+*{box-sizing: border-box;}
+ul{list-style: none;}
+.nav-bar{
+  background: #1eb8ae;
+  color: white;
+}
+.nav-bar p{
+  display: inline-block;
+  margin: 10px;
+}
+.nav-list{
+  float: right;
+  margin: 0;}
+
+.nav-list li{
+  display: inline-block;
+margin: 10px 15px;}
