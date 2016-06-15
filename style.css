@@ -14,10 +14,12 @@ ul {
     background: #047e6f;
     color: white;
     padding: 0 2rem 0 2rem;
+
+    margin: 0 auto;
 }
 .nav-bar p {
     display: inline-block;
-    margin: 1rem;
+    margin: .5rem;
 }
 .nav-list {
     float: right;
@@ -25,7 +27,7 @@ ul {
 }
 .nav-list li {
     display: inline-block;
-    margin: 1rem 1.5rem;
+    margin: .5rem 1.5rem;
 }
 .row {
     margin: 5rem auto;
