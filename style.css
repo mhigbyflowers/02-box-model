@@ -50,24 +50,22 @@ ul{list-style: none;
   padding-bottom: 10px;
 }
 
-   .cancel-button{
+.column button{
     margin: 10px 0px;
-    float: left;
-    background: red;
-    color: white;
-    border: none;
-    font-size: 15px;
-    padding: 10px 20px;
-    border-radius: 3px;
-   }
-
-   .submit-button{
-    margin: 10px 0px;
-    float: right;
-    background: blue;
     color:white;
     border: none;
     font-size: 15px;
     padding: 10px 20px;
     border-radius: 3px;
+    text-transform: uppercase;
+}
+   .cancel-button{
+    float: left;
+    background: red;
+   }
+
+   .submit-button{
+    float: right;
+    background: blue;
+    border: none;
    }
