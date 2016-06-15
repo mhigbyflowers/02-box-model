@@ -1,71 +1,72 @@
-body{ margin: 0;}
-*{box-sizing: border-box;
-  /*border: 1px red solid*/
-  font-family: sans-serif;
+body {
+    margin: 0;
 }
-ul{list-style: none;
+* {
+    box-sizing: border-box;
+    /*border: 1px red solid*/
+
+    font-family: sans-serif;
 }
-
-.nav-bar{
-  background: #047e6f;
-  color: white;
-  padding: 0px 20px 0px 20px;
+ul {
+    list-style: none;
 }
-
-.nav-bar p{
-  display: inline-block;
-  margin: 10px;
+.nav-bar {
+    background: #047e6f;
+    color: white;
+    padding: 0px 20px 0px 20px;
 }
-.nav-list{
-  float: right;
-  margin: 0;}
-
-.nav-list li{
-  display: inline-block;
-  margin: 10px 15px;}
-
-.row{ margin-top: 100px;
-  text-align: center;
+.nav-bar p {
+    display: inline-block;
+    margin: 10px;
 }
-
-.row img{width: 100%;}
-
-.column{display: inline-block;
-  width: 25%;
-  margin: 40px 10px;
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-  border-radius: 5px;
+.nav-list {
+    float: right;
+    margin: 0;
 }
-
-.card-text{
-  text-align: left;
-  margin:10px;
+.nav-list li {
+    display: inline-block;
+    margin: 10px 15px;
 }
-
-.card-text h2{
-  margin-bottom: 0;
-  border-bottom: #666 1px solid;
-  padding-bottom: 10px;
+.row {
+    margin-top: 100px;
+    text-align: center;
 }
-
-.column button{
+.row img {
+    width: 100%;
+}
+.column {
+    display: inline-block;
+    width: 25%;
+    margin: 40px 10px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+}
+.card-text {
+    text-align: left;
+    margin: 10px;
+}
+.card-text h2 {
+    margin-bottom: 0;
+    border-bottom: #666 1px solid;
+    padding-bottom: 10px;
+}
+.column button {
     margin: 10px 0px;
-    color:white;
+    color: white;
     border: none;
     font-size: 15px;
     padding: 10px 20px;
     border-radius: 3px;
     text-transform: uppercase;
 }
-   .cancel-button{
+.cancel-button {
     float: left;
     background: #dd2c00;
-   }
-
-   .submit-button{
+}
+.submit-button {
     float: right;
     background: #0d47a1;
     border: none;
-   }
+}
