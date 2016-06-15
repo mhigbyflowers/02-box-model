@@ -1,10 +1,11 @@
 body{ margin: 0;}
 *{box-sizing: border-box;
 /*border: 1px red solid*/
+font-family: sans-serif;
 }
 ul{list-style: none;}
 .nav-bar{
-  background: #1eb8ae;
+  background: #047e6f;
   color: white;
 }
 .nav-bar p{
@@ -25,7 +26,7 @@ ul{list-style: none;}
 }
 .row img{width: 100%;}
 .column{display: inline-block;
-  width: 20%;
+  width: 25%;
   margin: 40px 10px;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
@@ -33,27 +34,35 @@ ul{list-style: none;}
   border-radius: 5px;
 
 }
-.column p, .column h2{
-  text-align: left;
-}
-{
-margin: : 30px;
 
-
-}
 .card-text{
-
+  text-align: left;
   margin:10px;
+}
+.card-text h2{
+margin-bottom: 0;
+border-bottom: red 13px solid;
+
 }
    .cancel-button{
     margin: 10px 0px;
     float: left;
     background: red;
     color: white;
+    border: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 3px;
+
    }
    .submit-button{
     margin: 10px 0px;
     float: right;
     background: blue;
     color:white;
+    border: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 3px;
+
    }
