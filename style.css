@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+    /*border: 1px red solid*/
+
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+.nav-bar {
+    background: #047e6f;
+    color: white;
+    padding: 0 2rem 0 2rem;
+
+    margin: 0 auto;
+}
+.nav-bar p {
+    display: inline-block;
+    margin: .5rem;
+}
+.nav-list {
+    float: right;
+    margin: 0;
+}
+.nav-list li {
+    display: inline-block;
+    margin: .5rem 1.5rem;
+}
+.row {
+    margin: 5rem auto;
+    text-align: center;
+    max-width: 60rem;
+
+
+}
+.row img {
+    width: 100%;
+
+}
+.column {
+    display: inline-block;
+    width: calc(90% / 3 - 1rem - 1rem);
+    margin: 1rem 1rem;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    border-radius: .3rem;
+    min-width: 15rem;
+}
+.card-text {
+    text-align: left;
+    margin: 1rem;
+}
+.card-text h2 {
+    margin-bottom: 0;
+    border-bottom: #666 .1rem solid;
+    padding-bottom: 10px;
+}
+.column button {
+    margin: 1rem 0;
+    color: white;
+    border: none;
+    font-size: .6rem;
+    padding: .6rem 1.2rem;
+    border-radius: .3rem;
+    text-transform: uppercase;
+}
+.cancel-button {
+    float: left;
+    background: #dd2c00;
+}
+.submit-button {
+    float: right;
+    background: #0d47a1;
+    border: none;
+}
